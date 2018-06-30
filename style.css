@@ -1,0 +1,143 @@
+.nav .navbar-nav {
+  font-style: initial;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: flex;
+  margin: 0px;
+}
+
+.navbar-brand {
+  font-style: initial;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+div > a {
+  margin: 10px;
+}
+
+p {
+  font-color: black;
+}
+
+.slider {
+  overflow: auto;
+  display: block;
+  height: 100%;
+  max-width:1500px;
+  margin-top: 80px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+  
+}
+
+h2 {
+  padding-left: 5px;
+  float: left;
+  margin-top: 180px;
+  margin-left: 25px;
+  color: #225588;
+  }
+
+#secondlinetitle {
+  margin-top: 10px;
+}
+
+.img-circle {
+  margin-top: 20px;
+  height: 400px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+#portfolio {
+  margin-top:0px; !important
+}
+
+.header {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.row .col .portfolio-image{
+  max-width: 400px;
+  max-height: 400px;
+  margin: 20px 10px 20px 10px;
+}
+
+.row {
+  height: 450px;
+  width: auto;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 26px;
+  letter-spacing: 2px; !important
+}
+
+#horizontalrule {
+  text-align: center; 
+}
+
+.slider {
+  margin-bottom: 50px;
+}
+
+input[type=text], select, textarea{
+  width: 1110px;/*Full width*/
+  padding: 12px; /*some padding*/
+  border: 1px solid #ccc; /*Gray border*/
+  border-radius: 4px; /*Rounded borders*/
+  box-sizing: border-box; /*Make sure that padding and width stays in place*/
+  margin-top: 6px; /*Add a top margin*/
+  margin-bottom: 16px; 
+  resize: vertical; /*Allow the user to vertically resize the textarea (not horizontally) */
+  text-align: center; !important
+  display:inline-block;
+  position: relative;
+}
+
+option {
+  width: 1110px;
+  text-align: center; !important
+  display:inline-block;
+}
+
+input [type=submit] {
+  width: 1140px; !important
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input [type=submit]:hover {
+  background-color: #45a049;
+  width: 1140px; !important
+}
+
+.containerform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+#contactform {
+  margin-top: 0px;
+  padidng-top: 0px;
+}
+
+body {
+  position: relative;
+}
+
+form { 
+text-align: center;
+}
